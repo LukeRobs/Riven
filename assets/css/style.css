@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+a {
+    transition: 0.4s;
+}
+h2 {
+    margin-bottom: 32px;
+    border-left: #39ff14 4px solid;
+    padding-left: 8px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #111111;
+    color: #ebebeb;
+}
+.dark {
+    background-color: #111111;
+    color: #ebebeb;
+}
+.header img {
+    width: 100px;
+}
+.dark-link {
+    color: #39ff14;
+    text-decoration: none;
+}
+.dark-link:hover{
+    color: #ebebeb;
+}
+header {
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 8px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header ul li + li {
+    margin-left: 24px;
+}
+header img {
+    width: 180px;
+}
+header a {
+    color: #ebebeb;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header a:hover{
+    color: #39ff14;
+}
+.hero {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    background-image: url(../images/riven-post.jpg);
+    background-size: cover;
+    background-position: center 25%;
+}
+.hero h1 {
+    color: #ebebeb;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dots {
+    margin-top: 24px;
+    display: flex;
+}
+.dots span {
+    display: block;
+    background-color: #ebebeb;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.dots span + span {
+    margin-left: 8px;
+}
+.dots .active {
+    background-color: #111111;
+}
+.skills {
+    padding: 64px 24px 96px;
+}
+.skills h2 {
+    color: #111111;
+}
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+.skills-row div {
+    flex: 1 1 250px;
+}
+.skills-row img {
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.skills h3 {
+    color: #111111;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.skills h3:hover{
+    color: #39ff14;
+    cursor: pointer;
+}
+.history .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-bottom: 2px solid #39ff14;
+}
+.history .container .col {
+    flex: 1 1 350px;
+}
+.history .container .col img {
+    width: 100%;
+    display: block;
+}
+.history p {
+    line-height: 1.5;
+}
+.history p + p {
+    margin-top: 24px;
+}
+footer {
+    padding: 64px 24px;
+    text-align: center;
+}
